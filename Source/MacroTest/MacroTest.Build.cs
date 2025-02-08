@@ -10,7 +10,11 @@ public class MacroTest : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
-			"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput"
+			"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput",
+			
+			// Для работы с JSON
+			"Json",
+			"JsonUtilities"
 		});
 		
 		// Чиним инклюды из подпапок проекта
