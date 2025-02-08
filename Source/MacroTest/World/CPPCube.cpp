@@ -20,8 +20,8 @@ ACPPCube::ACPPCube()
 	// Создаём статик меш компонент и настраиваем
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	// ConstructorHelpers помогает назначить ассет из С++ кода, плохо т.к. адрес ассета увековечен в исходном коде
-	//static ConstructorHelpers::FObjectFinder<UStaticMesh>VisualAsset(TEXT("/Game/ThirdPerson/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer"));
-	//if()
+	//static ConstructorHelpers::FObjectFinder<UStaticMesh>VisualAsset(TEXT("/Engine/BasicShapes/Cube.Cube"));
+	//if(VisualAsset.Succeeded())
 	//StaticMesh->SetStaticMesh(VisualAsset.Object);
 	// приклеиваем StaticMesh к рутовому компоненту
 	StaticMesh->SetupAttachment(RootComponent);
