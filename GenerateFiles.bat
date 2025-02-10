@@ -1,6 +1,6 @@
 echo off
 
-:: строки с точки это комментарий и они не запускаются
+:: строки начинающиеся с точек это комментарий и они не запускаются
 :: original video -> https://youtu.be/eqKVuLcLduM
 :: Special thanks to Yuri Popov
 
